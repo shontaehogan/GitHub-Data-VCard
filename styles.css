@@ -1,0 +1,70 @@
+.boxBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxTop {
+  position: relative;
+  padding: 8px 8px 32px 8px;
+  background: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 55px;
+  font-weight: lighter;
+  font-family: 'Zilla Slab', serif;
+  font-family: 'Josefin Slab', serif;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+  font-family: 'Zilla Slab', serif;
+}
+
+.basics {
+  color: grey;
+  flex-basis: 270px;
+  font-size: 14px;
+  margin-left: 250px;
+  margin-right: 20px;
+  font-family: 'Zilla Slab', serif;
+}
+
+.story {
+  color: grey;
+  flex-basis: 440px;
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: 'Zilla Slab', serif;
+}
+
+
+.text {
+  color: teal;
+  text-decoration: none;
+}
+
+a::after {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+  border-radius: 50px;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-right: 250px;
+}
