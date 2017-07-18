@@ -1,12 +1,18 @@
+.body {
+  background-color: #F3F3F3;
+}
+
 .boxBody {
   display: flex;
   justify-content: space-between;
+
 }
 
 .boxTop {
   position: relative;
-  padding: 8px 8px 32px 8px;
-  background: black;
+  padding: 32px 8px;
+  background: #1D1D1D;
+
 }
 
 h1 {
@@ -16,11 +22,28 @@ h1 {
   font-size: 55px;
   font-weight: lighter;
   font-family: 'Zilla Slab', serif;
-  font-family: 'Josefin Slab', serif;
-  padding: 20px;
-  margin-top: 30px;
+  /*font-family: 'Josefin Slab', serif;*/
+  /*padding: 8px 8px 8px 8px;*/
+  position: relative;
+  background: #1D1D1D;
+  margin-bottom: 0px;
 }
 
+h1:after {
+  background: #1D1D1D;
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  /*content: " ";*/
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+  background-image: linear-gradient(-45deg, #F3F3F3 16px, transparent 0), linear-gradient(45deg, #F3F3F3 16px, transparent 0);
+  margin-bottom: 0px;
+
+}
 h2 {
   font-weight: 800;
   font-size: 30px;
@@ -51,6 +74,11 @@ h2 {
   text-decoration: none;
 }
 
+.link {
+  color: teal;
+  text-decoration: none;
+}
+
 a::after {
   color: black;
 }
@@ -63,7 +91,7 @@ a {
 img {
   height: 110px;
   width: 110px;
-  border-radius: 50px;
+  border-radius: 50%;
   margin-left: 40px;
   margin-top: 50px;
   margin-right: 250px;
